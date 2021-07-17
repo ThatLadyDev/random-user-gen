@@ -18,6 +18,7 @@ const app = Vue.createApp({
             this.email      = results[0].email
             this.gender     = results[0].gender
             this.picture    = results[0].picture.large
+            
         }
     }
 });
